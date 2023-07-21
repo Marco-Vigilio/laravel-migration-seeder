@@ -9,7 +9,7 @@
 
     <div>
         <ul>
-        @foreach($trains as $train)
+        @foreach($trainList as $train)
             <li>
                 {{$train->stazione_di_partenza}} - {{$train->stazione_di_arrivo}}
             </li>
